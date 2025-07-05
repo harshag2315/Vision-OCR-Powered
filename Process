@@ -1,0 +1,12 @@
+Use kaggle to make model 
+after training and downloading model follow following steps - 
+1. copy model 
+2. Download EasyOCR library using 'pip install easyocr'
+3. go to - C:\Users\USER\.EasyOCR\model
+4. there will be two models - craft_mlt_25k.pth(used in recognition part) and english_g2.pth(used in prediction part)
+5. paste your model with english_g2.pth and rename your model to 'english_g2.pth'
+6. after this go to jupyter notebook folder where your frontend files are present then after reaching to that folder open - env\Lib\site-packages\easyocr
+7. change code of test.py with training code
+8. after this change open - env\Lib\site-packages\easyocr\model
+9. then change code in modules.py file similarly
+10. end
