@@ -1,0 +1,34 @@
+{
+  "build": "py313haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main",
+  "constrains": [],
+  "depends": [
+    "nbconvert-core 7.16.6 py313haa95532_0",
+    "nbconvert-pandoc 7.16.6 py313haa95532_0",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "C:\\Users\\harsh\\miniconda3\\pkgs\\nbconvert-7.16.6-py313haa95532_0",
+  "files": [],
+  "fn": "nbconvert-7.16.6-py313haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\harsh\\miniconda3\\pkgs\\nbconvert-7.16.6-py313haa95532_0",
+    "type": 1
+  },
+  "md5": "0c65e1b244dd1dc7cd86053361ca0eb7",
+  "name": "nbconvert",
+  "package_tarball_full_path": "C:\\Users\\harsh\\miniconda3\\pkgs\\nbconvert-7.16.6-py313haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9548ef9f1f26b50f3f62dc5b8ddf5ab5942b6a05f68e271e15dc109961cbd4b3",
+  "size": 8775,
+  "subdir": "win-64",
+  "timestamp": 1741192370000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/nbconvert-7.16.6-py313haa95532_0.conda",
+  "version": "7.16.6"
+}

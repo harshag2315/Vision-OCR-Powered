@@ -1,0 +1,471 @@
+{
+  "build": "h5da7b33_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main",
+  "constrains": [
+    "qt >=6.7.3,<7",
+    "qt-main >=6.7.3,<7"
+  ],
+  "depends": [
+    "qtbase >=6.7.3,<6.8.0a0",
+    "qtdeclarative >=6.7.3,<6.8.0a0",
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.29.30133,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\harsh\\miniconda3\\pkgs\\qtwebsockets-6.7.3-h5da7b33_0",
+  "files": [
+    "Library/bin/Qt6WebSockets.dll",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qdefaultmaskgenerator_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocket_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketcorsauthenticator_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketdataprocessor_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketframe_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsockethandshakeoptions_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsockethandshakerequest_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsockethandshakeresponse_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketprotocol_p.h",
+    "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketserver_p.h",
+    "Library/include/qt6/QtWebSockets/QMaskGenerator",
+    "Library/include/qt6/QtWebSockets/QWebSocket",
+    "Library/include/qt6/QtWebSockets/QWebSocketCorsAuthenticator",
+    "Library/include/qt6/QtWebSockets/QWebSocketHandshakeOptions",
+    "Library/include/qt6/QtWebSockets/QWebSocketProtocol",
+    "Library/include/qt6/QtWebSockets/QWebSocketServer",
+    "Library/include/qt6/QtWebSockets/QtWebSockets",
+    "Library/include/qt6/QtWebSockets/QtWebSocketsDepends",
+    "Library/include/qt6/QtWebSockets/QtWebSocketsVersion",
+    "Library/include/qt6/QtWebSockets/qmaskgenerator.h",
+    "Library/include/qt6/QtWebSockets/qtwebsocketsexports.h",
+    "Library/include/qt6/QtWebSockets/qtwebsocketsversion.h",
+    "Library/include/qt6/QtWebSockets/qwebsocket.h",
+    "Library/include/qt6/QtWebSockets/qwebsocketcorsauthenticator.h",
+    "Library/include/qt6/QtWebSockets/qwebsockethandshakeoptions.h",
+    "Library/include/qt6/QtWebSockets/qwebsocketprotocol.h",
+    "Library/include/qt6/QtWebSockets/qwebsockets_global.h",
+    "Library/include/qt6/QtWebSockets/qwebsocketserver.h",
+    "Library/lib/Qt6WebSockets.lib",
+    "Library/lib/Qt6WebSockets.prl",
+    "Library/lib/cmake/Qt6BuildInternals/StandaloneTests/QtWebSocketsTestsConfig.cmake",
+    "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsAdditionalTargetInfo.cmake",
+    "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfig.cmake",
+    "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfigVersion.cmake",
+    "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfigVersionImpl.cmake",
+    "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets-release.cmake",
+    "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsAdditionalTargetInfo.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfig.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfigVersion.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfigVersionImpl.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsDependencies.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsTargets-release.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsTargets.cmake",
+    "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsVersionlessTargets.cmake",
+    "Library/lib/qt6/bin/Qt6WebSockets.dll",
+    "Library/lib/qt6/metatypes/qt6websockets_release_metatypes.json",
+    "Library/lib/qt6/mkspecs/modules/qt_lib_websockets.pri",
+    "Library/lib/qt6/mkspecs/modules/qt_lib_websockets_private.pri",
+    "Library/lib/qt6/modules/WebSockets.json",
+    "Library/lib/qt6/qml/QtWebSockets/plugins.qmltypes",
+    "Library/lib/qt6/qml/QtWebSockets/qmldir",
+    "Library/lib/qt6/qml/QtWebSockets/qmlwebsocketsplugin.dll"
+  ],
+  "fn": "qtwebsockets-6.7.3-h5da7b33_0.conda",
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "C:\\Users\\harsh\\miniconda3\\pkgs\\qtwebsockets-6.7.3-h5da7b33_0",
+    "type": 1
+  },
+  "md5": "58ab8ab9546810aa56bbbd1f749f3c3a",
+  "name": "qtwebsockets",
+  "package_tarball_full_path": "C:\\Users\\harsh\\miniconda3\\pkgs\\qtwebsockets-6.7.3-h5da7b33_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/Qt6WebSockets.dll",
+        "path_type": "hardlink",
+        "sha256": "6ce337d5d2687f3f3634b2e364535d03d6a8ef86f33906634319416fdced4d18",
+        "sha256_in_prefix": "6ce337d5d2687f3f3634b2e364535d03d6a8ef86f33906634319416fdced4d18",
+        "size_in_bytes": 218384
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qdefaultmaskgenerator_p.h",
+        "path_type": "hardlink",
+        "sha256": "a3f3a34940b4063da27bcd6214bbfffd817cded291c224a7ff5df2c95dbdb928",
+        "sha256_in_prefix": "a3f3a34940b4063da27bcd6214bbfffd817cded291c224a7ff5df2c95dbdb928",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocket_p.h",
+        "path_type": "hardlink",
+        "sha256": "f6e77be80a0e548907c99f156fb1dfa0fc9505526bb0b289ab73bec4a8c3a9f5",
+        "sha256_in_prefix": "f6e77be80a0e548907c99f156fb1dfa0fc9505526bb0b289ab73bec4a8c3a9f5",
+        "size_in_bytes": 8570
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketcorsauthenticator_p.h",
+        "path_type": "hardlink",
+        "sha256": "ec6357eec1eec51942a7c4a7dd299702a2ee65291d940d010aeff038e581594d",
+        "sha256_in_prefix": "ec6357eec1eec51942a7c4a7dd299702a2ee65291d940d010aeff038e581594d",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketdataprocessor_p.h",
+        "path_type": "hardlink",
+        "sha256": "b91eae40941d25fddbddcad8c807a2e01df215354dd7c518baba6744379b22bc",
+        "sha256_in_prefix": "b91eae40941d25fddbddcad8c807a2e01df215354dd7c518baba6744379b22bc",
+        "size_in_bytes": 2749
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketframe_p.h",
+        "path_type": "hardlink",
+        "sha256": "e942caaa9b60c2015a8c6be046440a444ecad697462b8a41d0335889e793374c",
+        "sha256_in_prefix": "e942caaa9b60c2015a8c6be046440a444ecad697462b8a41d0335889e793374c",
+        "size_in_bytes": 2804
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsockethandshakeoptions_p.h",
+        "path_type": "hardlink",
+        "sha256": "3c5bad5a3d18a2be294951aa1534349dcda8959326924377c9c8e0ae5f146ecc",
+        "sha256_in_prefix": "3c5bad5a3d18a2be294951aa1534349dcda8959326924377c9c8e0ae5f146ecc",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsockethandshakerequest_p.h",
+        "path_type": "hardlink",
+        "sha256": "2823bce1ddc8f52fe2870eb99af44bd978b0bdbf3443947348c24d7838b0acd1",
+        "sha256_in_prefix": "2823bce1ddc8f52fe2870eb99af44bd978b0bdbf3443947348c24d7838b0acd1",
+        "size_in_bytes": 1813
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsockethandshakeresponse_p.h",
+        "path_type": "hardlink",
+        "sha256": "b4abda2b077afa1ef58cf07efb592b8a76738140537bdb5441166dc29f6a4132",
+        "sha256_in_prefix": "b4abda2b077afa1ef58cf07efb592b8a76738140537bdb5441166dc29f6a4132",
+        "size_in_bytes": 2752
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketprotocol_p.h",
+        "path_type": "hardlink",
+        "sha256": "db0729099c8a29f2c280893ec0ba30de6c9f379654f2a7214a9888507e01763c",
+        "sha256_in_prefix": "db0729099c8a29f2c280893ec0ba30de6c9f379654f2a7214a9888507e01763c",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/6.7.3/QtWebSockets/private/qwebsocketserver_p.h",
+        "path_type": "hardlink",
+        "sha256": "2183942718bb5b0111cdc706433e0c33bf80974b73113e136e332a72e13b0d68",
+        "sha256_in_prefix": "2183942718bb5b0111cdc706433e0c33bf80974b73113e136e332a72e13b0d68",
+        "size_in_bytes": 3483
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QMaskGenerator",
+        "path_type": "hardlink",
+        "sha256": "676f4efd251672b13973ad52986cfda310d1d2c0d4a26aa8d9b7a5c4db1b5c46",
+        "sha256_in_prefix": "676f4efd251672b13973ad52986cfda310d1d2c0d4a26aa8d9b7a5c4db1b5c46",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QWebSocket",
+        "path_type": "hardlink",
+        "sha256": "66bbbd32a31eb0f5a63ef1dcb9c9ca2af69a61afa06227f47a39ee5f7ac7c1e4",
+        "sha256_in_prefix": "66bbbd32a31eb0f5a63ef1dcb9c9ca2af69a61afa06227f47a39ee5f7ac7c1e4",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QWebSocketCorsAuthenticator",
+        "path_type": "hardlink",
+        "sha256": "f74118ebe41f698b68b9fc65d5699cafc6d4090e2f6e102c912708bc2b900c13",
+        "sha256_in_prefix": "f74118ebe41f698b68b9fc65d5699cafc6d4090e2f6e102c912708bc2b900c13",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QWebSocketHandshakeOptions",
+        "path_type": "hardlink",
+        "sha256": "6594d87b46043f0ac4ba58d4f49d6a115a8c0668bec39aee250ad26474d6783f",
+        "sha256_in_prefix": "6594d87b46043f0ac4ba58d4f49d6a115a8c0668bec39aee250ad26474d6783f",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QWebSocketProtocol",
+        "path_type": "hardlink",
+        "sha256": "63c81aacfda06bb742e1fd2680842d3ca139a80d9c1e938a25b5d4cd5527cf0a",
+        "sha256_in_prefix": "63c81aacfda06bb742e1fd2680842d3ca139a80d9c1e938a25b5d4cd5527cf0a",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QWebSocketServer",
+        "path_type": "hardlink",
+        "sha256": "7603cfb7b0c0ade805f5905818de68496000708df0547c3c3cf972f60bec0785",
+        "sha256_in_prefix": "7603cfb7b0c0ade805f5905818de68496000708df0547c3c3cf972f60bec0785",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QtWebSockets",
+        "path_type": "hardlink",
+        "sha256": "29a2d18836b862119cfd862c1395e7dbfbf3711e4df2523f17c9a14835b58f9c",
+        "sha256_in_prefix": "29a2d18836b862119cfd862c1395e7dbfbf3711e4df2523f17c9a14835b58f9c",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QtWebSocketsDepends",
+        "path_type": "hardlink",
+        "sha256": "803bf791c609507f3f19a278cddbe9764c19587607976d4a04fe3734bef033b5",
+        "sha256_in_prefix": "803bf791c609507f3f19a278cddbe9764c19587607976d4a04fe3734bef033b5",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/QtWebSocketsVersion",
+        "path_type": "hardlink",
+        "sha256": "970af19fcfd7eabe929904bf97124e534ba78692bce39e9948d7779caa74b214",
+        "sha256_in_prefix": "970af19fcfd7eabe929904bf97124e534ba78692bce39e9948d7779caa74b214",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qmaskgenerator.h",
+        "path_type": "hardlink",
+        "sha256": "009353608165a6cd6f12d0027562813aa4030d0a63b8d7693bd657cb318c5553",
+        "sha256_in_prefix": "009353608165a6cd6f12d0027562813aa4030d0a63b8d7693bd657cb318c5553",
+        "size_in_bytes": 612
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qtwebsocketsexports.h",
+        "path_type": "hardlink",
+        "sha256": "f04253eb8b8b33cfb5557426b56d73fa8240dc4a165cde465fb4262e98f85965",
+        "sha256_in_prefix": "f04253eb8b8b33cfb5557426b56d73fa8240dc4a165cde465fb4262e98f85965",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qtwebsocketsversion.h",
+        "path_type": "hardlink",
+        "sha256": "212f1db5b293e48e463a1b0dabea6a997d2df373ddc1be4e50640f63a1498d34",
+        "sha256_in_prefix": "212f1db5b293e48e463a1b0dabea6a997d2df373ddc1be4e50640f63a1498d34",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qwebsocket.h",
+        "path_type": "hardlink",
+        "sha256": "d3cd9e5bb60423850417d2101b1e591cd3d24318208750a1d8c46991a92c2e27",
+        "sha256_in_prefix": "d3cd9e5bb60423850417d2101b1e591cd3d24318208750a1d8c46991a92c2e27",
+        "size_in_bytes": 5275
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qwebsocketcorsauthenticator.h",
+        "path_type": "hardlink",
+        "sha256": "01de520d0c0a175347cb03ba5ffcaa89a4475520d0c6fcbe4703e0a4fa27048a",
+        "sha256_in_prefix": "01de520d0c0a175347cb03ba5ffcaa89a4475520d0c6fcbe4703e0a4fa27048a",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qwebsockethandshakeoptions.h",
+        "path_type": "hardlink",
+        "sha256": "4e6bdfa33f44fbec52e00ef24beb913325ca98b53d0aca7ba1656158a7257a60",
+        "sha256_in_prefix": "4e6bdfa33f44fbec52e00ef24beb913325ca98b53d0aca7ba1656158a7257a60",
+        "size_in_bytes": 1748
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qwebsocketprotocol.h",
+        "path_type": "hardlink",
+        "sha256": "acea5b550416c17ebb58fc749cb9f78a7ada5a90d0bd2d01e44e7bf9a6951345",
+        "sha256_in_prefix": "acea5b550416c17ebb58fc749cb9f78a7ada5a90d0bd2d01e44e7bf9a6951345",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qwebsockets_global.h",
+        "path_type": "hardlink",
+        "sha256": "5856225a2f4997c98cb754fa4290fceb09ffbe508745f892226c753f3bb4876f",
+        "sha256_in_prefix": "5856225a2f4997c98cb754fa4290fceb09ffbe508745f892226c753f3bb4876f",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Library/include/qt6/QtWebSockets/qwebsocketserver.h",
+        "path_type": "hardlink",
+        "sha256": "ec3a43a115bbe1265398e980c8d18116ae5cde538382ad1fe72291cef1016a86",
+        "sha256_in_prefix": "ec3a43a115bbe1265398e980c8d18116ae5cde538382ad1fe72291cef1016a86",
+        "size_in_bytes": 3985
+      },
+      {
+        "_path": "Library/lib/Qt6WebSockets.lib",
+        "path_type": "hardlink",
+        "sha256": "25d7880adc4dd82dc146370e3292acae1767c2ae02c02be849e8845e4f5cb649",
+        "sha256_in_prefix": "25d7880adc4dd82dc146370e3292acae1767c2ae02c02be849e8845e4f5cb649",
+        "size_in_bytes": 67406
+      },
+      {
+        "_path": "Library/lib/Qt6WebSockets.prl",
+        "path_type": "hardlink",
+        "sha256": "1566fbe4017e772bf6733ffe379bf1c4801fe03bef024306a30b86f826caab2f",
+        "sha256_in_prefix": "1566fbe4017e772bf6733ffe379bf1c4801fe03bef024306a30b86f826caab2f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6BuildInternals/StandaloneTests/QtWebSocketsTestsConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "46ef5290c712f1f6d2b01bfe39bb6b5a978ef1e787e387b3b9d87e017ae83504",
+        "sha256_in_prefix": "46ef5290c712f1f6d2b01bfe39bb6b5a978ef1e787e387b3b9d87e017ae83504",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsAdditionalTargetInfo.cmake",
+        "path_type": "hardlink",
+        "sha256": "34324f409c6c25393257a46902bfde97d4edda7a6949cbf0a74a1ebbc5407cff",
+        "sha256_in_prefix": "34324f409c6c25393257a46902bfde97d4edda7a6949cbf0a74a1ebbc5407cff",
+        "size_in_bytes": 1542
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "2cf777adb2985678d96dd2813b22dbd4d4cc18fd21d5abc914ecf23a352981d9",
+        "sha256_in_prefix": "2cf777adb2985678d96dd2813b22dbd4d4cc18fd21d5abc914ecf23a352981d9",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "cc1e607b4df7fe1e473c3248c5634316bca34b01ab32da0ef984721e22951da7",
+        "sha256_in_prefix": "cc1e607b4df7fe1e473c3248c5634316bca34b01ab32da0ef984721e22951da7",
+        "size_in_bytes": 3053
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfigVersionImpl.cmake",
+        "path_type": "hardlink",
+        "sha256": "d4f06888526a52d6b70c3c3a966e01a59a6a1cb5d4b6f312a1c5189bbb2b11a9",
+        "sha256_in_prefix": "d4f06888526a52d6b70c3c3a966e01a59a6a1cb5d4b6f312a1c5189bbb2b11a9",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "6e77c8a8c1396480a82b57bbc16eed1f5e4b8faf168641aa99d7a611b8c174f1",
+        "sha256_in_prefix": "6e77c8a8c1396480a82b57bbc16eed1f5e4b8faf168641aa99d7a611b8c174f1",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "213f367a7e89f4db74fe2d1b5e670829cf48af641d79b92624840b5c30ae0eaa",
+        "sha256_in_prefix": "213f367a7e89f4db74fe2d1b5e670829cf48af641d79b92624840b5c30ae0eaa",
+        "size_in_bytes": 4590
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsAdditionalTargetInfo.cmake",
+        "path_type": "hardlink",
+        "sha256": "a322581f6924376bfbc6f1be0a5516b26cae8b378841841aa23bf016eb239538",
+        "sha256_in_prefix": "a322581f6924376bfbc6f1be0a5516b26cae8b378841841aa23bf016eb239538",
+        "size_in_bytes": 2200
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "eadbdb64a5f24101942a3246d1af0b001ab60e1d63a5234dec3fa898566503d1",
+        "sha256_in_prefix": "eadbdb64a5f24101942a3246d1af0b001ab60e1d63a5234dec3fa898566503d1",
+        "size_in_bytes": 7058
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "257b81332ffdffc9e5b10c32ec056c21b4ac0abe2c7c6264911baffac7a3bcbf",
+        "sha256_in_prefix": "257b81332ffdffc9e5b10c32ec056c21b4ac0abe2c7c6264911baffac7a3bcbf",
+        "size_in_bytes": 3050
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfigVersionImpl.cmake",
+        "path_type": "hardlink",
+        "sha256": "d4f06888526a52d6b70c3c3a966e01a59a6a1cb5d4b6f312a1c5189bbb2b11a9",
+        "sha256_in_prefix": "d4f06888526a52d6b70c3c3a966e01a59a6a1cb5d4b6f312a1c5189bbb2b11a9",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsDependencies.cmake",
+        "path_type": "hardlink",
+        "sha256": "adaa6a5c6d9a3aaf76896197417aade15e50178e5c5d082caa59902239949536",
+        "sha256_in_prefix": "adaa6a5c6d9a3aaf76896197417aade15e50178e5c5d082caa59902239949536",
+        "size_in_bytes": 1841
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "9b26692c77a94a840d75cba2c069432047f1d03d92dd54a973deac1f4d5da43e",
+        "sha256_in_prefix": "9b26692c77a94a840d75cba2c069432047f1d03d92dd54a973deac1f4d5da43e",
+        "size_in_bytes": 955
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "81531d2e99b0639ffdd25a7aa4813ca9163075c919d52eac87db79826ec78764",
+        "sha256_in_prefix": "81531d2e99b0639ffdd25a7aa4813ca9163075c919d52eac87db79826ec78764",
+        "size_in_bytes": 5920
+      },
+      {
+        "_path": "Library/lib/cmake/Qt6WebSockets/Qt6WebSocketsVersionlessTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "3715e417ab25699d01407717b6e70a4be779afc159ff5c92dbb9417dd6d709e3",
+        "sha256_in_prefix": "3715e417ab25699d01407717b6e70a4be779afc159ff5c92dbb9417dd6d709e3",
+        "size_in_bytes": 5369
+      },
+      {
+        "_path": "Library/lib/qt6/bin/Qt6WebSockets.dll",
+        "path_type": "hardlink",
+        "sha256": "633c6801e28452736e84b421d9656590cf9e82e8402a7345c2531c9c7269488b",
+        "sha256_in_prefix": "633c6801e28452736e84b421d9656590cf9e82e8402a7345c2531c9c7269488b",
+        "size_in_bytes": 218384
+      },
+      {
+        "_path": "Library/lib/qt6/metatypes/qt6websockets_release_metatypes.json",
+        "path_type": "hardlink",
+        "sha256": "ac2b8f3ebf233bd53c90aa700716aac60c1f6e00802bb56edf5ce6ffed9e7409",
+        "sha256_in_prefix": "ac2b8f3ebf233bd53c90aa700716aac60c1f6e00802bb56edf5ce6ffed9e7409",
+        "size_in_bytes": 25240
+      },
+      {
+        "_path": "Library/lib/qt6/mkspecs/modules/qt_lib_websockets.pri",
+        "path_type": "hardlink",
+        "sha256": "253233d3f7f3596815a415e2a374119ee36ffca965e79002299ff34ef4eb8c67",
+        "sha256_in_prefix": "253233d3f7f3596815a415e2a374119ee36ffca965e79002299ff34ef4eb8c67",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "Library/lib/qt6/mkspecs/modules/qt_lib_websockets_private.pri",
+        "path_type": "hardlink",
+        "sha256": "89350b8b23b06121c29af1f1def121aa5cad4be760f4abe8318f1894375cbad3",
+        "sha256_in_prefix": "89350b8b23b06121c29af1f1def121aa5cad4be760f4abe8318f1894375cbad3",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "Library/lib/qt6/modules/WebSockets.json",
+        "path_type": "hardlink",
+        "sha256": "7f2235b4a3b4635ec4b89c628ea8415d91c60289f159ae8b8c105b5cdbc86d99",
+        "sha256_in_prefix": "7f2235b4a3b4635ec4b89c628ea8415d91c60289f159ae8b8c105b5cdbc86d99",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "Library/lib/qt6/qml/QtWebSockets/plugins.qmltypes",
+        "path_type": "hardlink",
+        "sha256": "15890741a8e0d9195b9f59e5893124ed09c982c4dfa5b2be728421778e63a4d1",
+        "sha256_in_prefix": "15890741a8e0d9195b9f59e5893124ed09c982c4dfa5b2be728421778e63a4d1",
+        "size_in_bytes": 3496
+      },
+      {
+        "_path": "Library/lib/qt6/qml/QtWebSockets/qmldir",
+        "path_type": "hardlink",
+        "sha256": "4ee99fa9bbf2dc0c4526df9f10c54f7833fb503b508e6b2cccbe573b422128d8",
+        "sha256_in_prefix": "4ee99fa9bbf2dc0c4526df9f10c54f7833fb503b508e6b2cccbe573b422128d8",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "Library/lib/qt6/qml/QtWebSockets/qmlwebsocketsplugin.dll",
+        "path_type": "hardlink",
+        "sha256": "fd37d570787bbfaedce0c79009a17db4ea3595d80aad2c60ff14134147e4ebdc",
+        "sha256_in_prefix": "fd37d570787bbfaedce0c79009a17db4ea3595d80aad2c60ff14134147e4ebdc",
+        "size_in_bytes": 76048
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a9c0113cc8203aad4b8632cddf973374917f8e416c137b6612a2ad7b5f1b1f14",
+  "size": 150445,
+  "subdir": "win-64",
+  "timestamp": 1743110738000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/qtwebsockets-6.7.3-h5da7b33_0.conda",
+  "version": "6.7.3"
+}
