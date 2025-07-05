@@ -1,3 +1,5 @@
 This folder contains training of Transformer based model
 Kaggle link for training - https://www.kaggle.com/code/harshag2315/fork-of-transformer-training/notebook
 References - https://github.com/JaidedAI/EasyOCR/tree/master/trainer
+dataset used - https://www.kaggle.com/datasets/harshag2315/dataset-old-label 
+note - dataset is used from JaidedAI official site
