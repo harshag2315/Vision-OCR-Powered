@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Text Detection</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Form Styling */
+        form {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #f9f9f9;
+            width: 100%;
+            max-width: 300px;
+            cursor: pointer;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #4caf50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Progress Bar Styling */
+        #progressWrapper {
+            width: 80%;
+            max-width: 500px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin-top: 20px;
+            overflow: hidden;
+            display: none;
+        }
+
+        #progressBar {
+            width: 0%;
+            height: 20px;
+            background: linear-gradient(to right, #4caf50, #81c784);
+            transition: width 0.4s ease;
+        }
+
+        /* Result Styling */
+        #result {
+            margin-top: 30px;
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 600px;
+            color: #333;
+        }
+
+        #result h2 {
+            margin-top: 0;
+            color: #4caf50;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            form, #result {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AI Text Detection</h1>
+
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <button type="submit">Upload</button>
+    </form>
+
+    <div id="progressWrapper">
+        <div id="progressBar"></div>
+    </div>
+
+    <div id="result">
+        <!-- Prediction and extracted text will appear here -->
+    </div>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+        const resultDiv = document.getElementById('result');
+        const progressWrapper = document.getElementById('progressWrapper');
+        const progressBar = document.getElementById('progressBar');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const formData = new FormData();
+            const fileField = document.getElementById('imageInput');
+
+            if (!fileField.files.length) {
+                alert("Please select an image file.");
+                return;
+            }
+
+            formData.append('image', fileField.files[0]);
+
+            // Show the progress bar
+            progressWrapper.style.display = 'block';
+            progressBar.style.width = '0%'; // Reset bar
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+                progressWrapper.style.display = 'none';
+
+                if (data.error) {
+                    resultDiv.innerHTML = `<p style="color:red;">Error: ${data.error}</p>`;
+                } else {
+                    resultDiv.innerHTML = `
+                        <h2>Prediction:</h2>
+                        <p><strong>${data.prediction}</strong></p>
+                        <h2>Extracted Text:</h2>
+                        <p>${data.text}</p>
+                    `;
+                }
+            } catch (error) {
+                progressWrapper.style.display = 'none';
+                resultDiv.innerHTML = `<p style="color:red;">Upload failed: ${error.message}</p>`;
+            }
+        });
+
+        // Optional: Mock progress simulation
+        form.addEventListener('change', () => {
+            progressBar.style.width = '20%';
+        });
+    </script>
+
+</body>
+</html>

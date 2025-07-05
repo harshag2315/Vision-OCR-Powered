@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Text Detection</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="image" id="imageInput" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    <div id="result" style="margin-top: 20px;">
+        <!-- Prediction and extracted text will appear here -->
+    </div>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+        const resultDiv = document.getElementById('result');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault(); // Prevent page reload
+
+            const formData = new FormData();
+            const fileField = document.getElementById('imageInput');
+
+            if (!fileField.files.length) {
+                alert("Please select an image file.");
+                return;
+            }
+
+            formData.append('image', fileField.files[0]);
+
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+
+            const data = await response.json();
+
+            if (data.error) {
+                resultDiv.innerHTML = `<p style="color:red;">Error: ${data.error}</p>`;
+            } else {
+                resultDiv.innerHTML = `
+                    <h2>Prediction:</h2>
+                    <p><strong>${data.prediction}</strong></p>
+                    <h2>Extracted Text:</h2>
+                    <p>${data.text}</p>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
