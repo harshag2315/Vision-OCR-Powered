@@ -1,0 +1,1 @@
+pip install flask easyocr transformers pdf2image torch pillow
